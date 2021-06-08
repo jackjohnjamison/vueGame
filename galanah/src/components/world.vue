@@ -1,19 +1,31 @@
 <template>
     <div class="panel">
         <h2>World</h2>
+        <canvas id="world-canvas" />
     </div>
 </template>
 
 <script>
-export default {
-  name: 'world',
-  props: {
-    /// msg: String
-  }
-}
+    import engine from '../../imports/engine.js'
+
+    export default {
+        name: 'world',
+        props: {
+            /// msg: String
+        },
+        methods: {
+
+        },
+        mounted() {
+            engine()
+        }
+    }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+    #world-canvas {
+        width: 100%;
+        height: 500px;
+        background-color: #000;
+    }
 </style>

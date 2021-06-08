@@ -1,8 +1,10 @@
 <template>
     <div>
         <h1>Galanah</h1>
-        <stats />
-        <world />
+        <div class="content">
+            <stats />
+            <world />
+        </div>
     </div>
 </template>
 
@@ -26,12 +28,17 @@
         -moz-osx-font-smoothing: grayscale;
         text-align: center;
         color: #2c3e50;
-        margin-top: 60px;
-        
+        margin: 20px auto;
+        max-width: 1200px;
+
+    }
+
+    .content {
+        display: flex;
     }
 
     .panel {
         width: 50%;
-        display: inline-block;
+        padding: 0 20px;
     }
 </style>
