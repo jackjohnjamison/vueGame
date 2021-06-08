@@ -30,7 +30,6 @@
         color: #2c3e50;
         margin: 20px auto;
         max-width: 1200px;
-
     }
 
     .content {

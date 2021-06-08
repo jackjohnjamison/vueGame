@@ -1,31 +1,24 @@
 <template>
     <div class="panel">
         <h2>World</h2>
-        <canvas id="world-canvas" />
+        <worldCanvas ref="world-canvas" id="world-canvas" />
     </div>
 </template>
 
 <script>
-    import engine from '../../imports/engine.js'
+    import worldCanvas from './world-canvas.vue'
 
     export default {
-        name: 'world',
+        name: 'game',
         props: {
             /// msg: String
         },
-        methods: {
-
-        },
-        mounted() {
-            engine()
+        components: {
+            worldCanvas
         }
     }
 </script>
 
 <style scoped>
-    #world-canvas {
-        width: 100%;
-        height: 500px;
-        background-color: #000;
-    }
+
 </style>
