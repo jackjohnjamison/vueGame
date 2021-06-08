@@ -15,6 +15,7 @@
             }
         },
         methods: {
+            // FROM https://www.sitepoint.com/quick-tip-game-loop-in-javascript/
             update(progress) {
                 // Update the state of the world for the elapsed time since last render
                 console.log(progress)
