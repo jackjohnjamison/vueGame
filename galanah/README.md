@@ -20,5 +20,8 @@ npm run build
 npm run lint
 ```
 
+### Tutorials
+https://www.sitepoint.com/quick-tip-game-loop-in-javascript/
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

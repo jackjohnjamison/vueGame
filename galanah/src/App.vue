@@ -1,11 +1,8 @@
 <template>
-    <div>
-        <h1>Galanah</h1>
         <div class="content">
             <stats />
             <world />
         </div>
-    </div>
 </template>
 
 <script>
